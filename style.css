@@ -48,7 +48,7 @@ header{
 }
 
 .hero-image{
-    background-image: url(../imagenes/banner.jpg);
+    background-image: url(imagenes/banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
