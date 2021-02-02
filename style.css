@@ -3,39 +3,35 @@
     flex-wrap: wrap;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header{
-    flex-wrap: wrap;
-}
-
-.main-menu{
-    background: #f5f5f5;
+    position: relative;
     width: 100%;
-    flex-wrap: wrap;
+    max-width: 960px;
+    height: 100px;
+    background: #fff;
+    margin: 0 auto;
+    padding-top: 20px;
+    /*flex-wrap: wrap;*/
 }
 
-.menu{
-    padding: 20px 20px 0;
-}
-
-.menu img{
-    width: 150px;
-    margin-left: 60px;
-    align-items: center;
-}
-
-.radius{
-    margin-left: 80px;
-    border-radius: 25%;
+#logo {
+    float: left;
+    border-radius: 10px;
 }
 
 .menu-link{
+    float: right;
     list-style: none;
-    padding: 30px;
+    margin-top:35px;
 }
 
-.main-menu .menu-link{
+.menu-link li a {
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
     color: #1b2a6d;
     text-decoration: none;
     list-style: none;
@@ -60,11 +56,12 @@ header{
 }
 
 .main-quienes{
+    position: relative;
+    max-width: 960px;
     font-size: 15px;
     color: #f5f5f5;
+    margin: 0 auto;
     padding-top: 70px;
-    padding-left: 10px;
-    padding-right: 25px;
 }
 
 
@@ -255,7 +252,7 @@ footer{
 
     .menu-link{
         display: flex;
-        padding: 60px;
+        /*padding: 60px;*/
     }
 
     .menu-link li{
@@ -269,8 +266,8 @@ footer{
 
     .main-quienes{
         color: #f5f5f5;
-        padding-top: 290px;
-        padding-left: 150px;
+        /*padding-top: 290px;
+        padding-left: 150px;*/
     }
 
     .main-parrafo2{
