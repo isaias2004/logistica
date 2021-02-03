@@ -24,7 +24,7 @@ header{
 }
 
 .radius{
-    margin-left: 50px;
+    margin-left: 80px;
     border-radius: 25%;
 }
 
@@ -48,7 +48,7 @@ header{
 }
 
 .hero-image{
-    background-image: url(../imagenes/banner.jpg);
+    background-image: url(imagenes/banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -60,16 +60,19 @@ header{
 }
 
 .main-quienes{
+    font-size: 15px;
     color: #f5f5f5;
-    padding-top: 290px;
-    padding-left: 150px;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 25px;
 }
+
 
 .title-quienes{
     max-width: 180px;
     background: #305fa7;
     padding: 15px;
-    border-radius: 5px 40px 5px;
+    border-radius: 40px ;
     color: rgb(27, 41, 66);
 }
 
@@ -77,7 +80,7 @@ header{
     background: rgb(27, 41, 66);
     float: left;
     text-align: justify;
-    font-size: 20px;
+    font-size: 15px;
     color: whitesmoke;
     max-width: 350px;
     border-radius: 20px ;
@@ -91,14 +94,15 @@ header{
 .main-parrafo2{
     color: #f5f5f5;
     float: right;
-    padding-right: 60px;
+    padding-top: 200px;
+    padding-right: 0px;
 }
 
 .title-exp{
     max-width: 120px;
     background: #305fa7;
     padding: 15px;
-    border-radius: 5px 40px 5px;
+    border-radius:  40px ;
     color: rgb(27, 41, 66);
 }
 
@@ -107,7 +111,7 @@ header{
     background: rgb(27, 41, 66);
     float: right;
     text-align: justify;
-    font-size: 20px;
+    font-size: 15px;
     color: whitesmoke;
     max-width: 350px;
     border-radius: 15px ;
@@ -118,7 +122,8 @@ header{
 }
 
 .container-grid{
-    padding: 150px 100px;
+    flex-wrap: wrap;
+    padding: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -140,8 +145,7 @@ header{
 .main-servicios a{
     text-align:center ;
     font-size: 20px;
-    float: left;
-    max-width: 250px;
+    max-width: 220px;
     padding: 20px;
 }
 
@@ -152,7 +156,7 @@ span{
 footer{
     display: flex;
     width: 100%;
-    background: #202020;
+    background: #25272e;
     color: white;
 }
 
@@ -186,8 +190,8 @@ footer{
 }
 
 .column2{
+    padding-left: 60px;
     max-width: 400px;
-
 }
 
 .column2 h1{
@@ -212,6 +216,10 @@ footer{
     height: 36px;
 }
 
+.column3{
+    padding-left: 30px;
+}
+
 .column3 h1{
     text-align: center;
     font-weight: normal;
@@ -225,7 +233,8 @@ footer{
 }
 
 .footer-image{
-    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 60px;
     padding-left: 150px;
 }
 
@@ -237,6 +246,7 @@ footer{
 }
 
 @media screen and (min-width: 600px) {
+
     .menu {
         display: flex;
         justify-content: space-between;
@@ -256,6 +266,65 @@ footer{
         padding-top: 0;
         min-height: 750px;
     }
+
+    .main-quienes{
+        color: #f5f5f5;
+        padding-top: 290px;
+        padding-left: 150px;
+    }
+
+    .main-parrafo2{
+        color: #f5f5f5;
+        float: right;
+        padding-top: 0px;
+        padding-right: 60px;
+    }
+
+    .title-quienes{
+        font-size: 24px;
+        max-width: 180px;
+        background: #305fa7;
+        padding: 15px;
+        border-radius: 5px 40px 5px;
+        color: rgb(27, 41, 66);
+    }
+
+    .title-exp{
+        font-size:25px ;
+        max-width: 120px;
+        background: #305fa7;
+        padding: 15px;
+        border-radius: 5px 40px 5px;
+        color: rgb(27, 41, 66);
+    }
+
+    .parrafo{
+        background: rgb(27, 41, 66);
+        float: left;
+        text-align: justify;
+        font-size: 20px;
+        color: whitesmoke;
+        max-width: 350px;
+        border-radius: 20px ;
+    }
+
+    .main-parrafo2 p{
+        padding: 9px;
+        background: rgb(27, 41, 66);
+        float: right;
+        text-align: justify;
+        font-size: 25px;
+        color: whitesmoke;
+        max-width: 350px;
+        border-radius: 15px ;
+    }
+
+    .container-grid{
+        padding: 150px 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
 
     .column3 .row2{
         margin-top: 25px;
@@ -282,5 +351,148 @@ footer{
         width: 100%;
         flex-wrap: wrap;
     }
+
+    .column2{
+        padding-left: 0px;
+        max-width: 400px;
+    }
+
+    .column3{
+        padding-left: 0px;
+    }
     
+}
+
+@media screen and (max-width: 768px) {
+
+    .main-parrafo2{
+        color: #f5f5f5;
+        float: right;
+        padding-top: 200px;
+        padding-right: 0px;
+    }
+
+    .container-grid{
+        padding: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .footer-image{
+        padding-top: 40px;
+        padding-left: 130px;
+    }
+
+    .column2{
+        padding-left: 112px;
+        max-width: 400px;
+    }
+
+    .column3{
+        padding-left: 80px;
+    }
+
+    .main-quienes{
+        font-size: 15px;
+        color: #f5f5f5;
+        padding-top: 70px;
+        padding-left: 40px;
+        padding-right: 25px;
+    }
+
+    .main-parrafo2{
+        color: #f5f5f5;
+        float: right;
+        padding-top: 200px;
+        padding-right: 70px;
+        padding-left: 0px;
+    }
+
+    .menu img{
+        width: 150px;
+        margin-left: 110px;
+        align-items: center;
+    }
+
+    .container-grid{
+        padding: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .footer-image{
+        padding-top: 40px;
+        padding-left: 110px;
+    }
+
+    .column2{
+        padding-left: 90px;
+        max-width: 400px;
+    }
+
+    .column3{
+        padding-left: 60px;
+    }
+
+    .main-parrafo2{
+        color: #f5f5f5;
+        float: right;
+        padding-top: 200px;
+        padding-right: 15px;
+    }
+
+    .menu img{
+        width: 150px;
+        margin-left: 90px;
+        align-items: center;
+    }
+
+
+    .container-grid{
+        padding: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .footer-image{
+        padding-top: 40px;
+        padding-left: 80px;
+    }
+
+    .column2{
+        padding-left: 65px;
+        max-width: 400px;
+    }
+
+    .column3{
+        padding-left: 40px;
+    }
+    .main-quienes{
+        font-size: 15px;
+        color: #f5f5f5;
+        padding-top: 70px;
+        padding-left: 10px;
+        padding-right: 25px;
+    }
+
+    .menu img{
+        width: 150px;
+        margin-left: 60px;
+        align-items: center;
+    }
+
+    .container-grid{
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
 }
