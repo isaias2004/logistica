@@ -46,47 +46,22 @@ header{
     border-top: 3px solid #305fa7 ;
 }
 
-.hero-image{
-    background-image: url(imagenes/banner.jpg);
-    background-repeat: no-repeat;
-    background-position: cover;
-    background-size: 100%;
-    flex-wrap: wrap;
-}
-
-.titulo{
-    padding-left: 20px;
-    padding-top: 150px;
-}
-
-
-.titulo h1{
-    font-size: 36px;
-    font-weight: 400;
-    color: #FFFFFF;
-    text-align: left;
-}
-
-
-.titulo p {
-    text-align: justify;
-    font-weight: 200;
-    max-width: 400px;
-    color: #FFFFFF;
+.separacion{
+    padding:50px;
 }
 
 .servicios-h1{
+    font-size: 20px;
     padding: 100px;
     background: #E2E2E2;
-    text-align: left;
     color: #323E48;
+    margin-bottom: 60px;
 }
 
-.container-grid{
+#servicios{
+    max-width: 960px;
     flex-wrap: wrap;
-    padding: 30px;
     display: flex;
-    justify-content: space-between;
 }
 
 .main-servicios{
@@ -96,7 +71,6 @@ header{
     display: flex;
     background: #e6eeff;
     border: 3px solid rgb(214, 214, 214);
-    max-width: 960px;
     border-radius: 20px;
 }
 
@@ -223,8 +197,8 @@ footer{
     }
 
     .hero-image {
-        position: relative;
-        min-height: 550px;
+        padding-top: 0;
+        min-height: 750px;
     }
 
     .main-quienes{
@@ -240,7 +214,48 @@ footer{
         padding-right: 60px;
     }
 
-    .container-grid{
+    .title-quienes{
+        font-size: 22px;
+        max-width: 180px;
+        background: #305fa7;
+        padding: 15px;
+        border-radius: 5px 40px 5px;
+        color: rgb(27, 41, 66);
+    }
+
+    .title-exp{
+        font-size:22px ;
+        max-width: 120px;
+        background: #305fa7;
+        padding: 15px;
+        border-radius: 5px 40px 5px;
+        color: rgb(27, 41, 66);
+    }
+
+    .parrafo{
+        background: rgb(27, 41, 66);
+        float: left;
+        text-align: justify;
+        font-size: 20px;
+        color: whitesmoke;
+        max-width: 350px;
+        border-radius: 20px ;
+    }
+
+    .main-parrafo2 p{
+        padding: 9px;
+        background: rgb(27, 41, 66);
+        float: right;
+        text-align: justify;
+        font-size: 20px;
+        color: whitesmoke;
+        max-width: 350px;
+        border-radius: 15px ;
+    }
+
+    #servicios{
+        margin: 0 auto;
+        position: relative;
         display: flex;
         justify-content: space-between;
     }
@@ -280,7 +295,7 @@ footer{
         padding-right: 0px;
     }
 
-    .container-grid{
+    #servicios{
         padding: 150px;
         display: flex;
         justify-content: space-between;
@@ -322,7 +337,7 @@ footer{
         align-items: center;
     }
 
-    .container-grid{
+    #servicios{
         padding: 70px;
         display: flex;
         justify-content: space-between;
@@ -359,7 +374,7 @@ footer{
     }
 
 
-    .container-grid{
+    #servicios{
         padding: 50px;
         display: flex;
         justify-content: space-between;
@@ -395,15 +410,9 @@ footer{
         align-items: center;
     }
 
-    .container-grid{
+    #servicios{
         padding: 10px;
         display: flex;
         justify-content: space-between;
     }
-}
-
-
-/* Page Servicios */
-#servicios {
-    display: flex;
 }
