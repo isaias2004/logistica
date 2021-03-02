@@ -36,7 +36,7 @@ header{
 
 .menu-link li { 
     margin-right: 10px;
-    padding-top:40px;
+    padding-top: 40px;
     padding-left: 40px;
 }
 
@@ -49,16 +49,24 @@ header{
 }
 
 .menu-link a:hover{
-    transition-delay: 10ms;
     padding-top: 10px;
     border-top: 3px solid #305fa7 ;
 }
 
-.contacto{
-    position: relative;
-    margin: 0 auto;
-    padding: 90px;
-    background: #e2e2e2;
+.label1{
+    display: none;
+}
+
+#menu{
+    display:none;
+}
+
+.contacto{    
+    font-size: 20px;
+    padding: 100px;
+    background: #E2E2E2;
+    color: #323E48;
+    margin-bottom: 60px;
 }
 
 .contacto h1{
@@ -218,3 +226,68 @@ footer{
     height: 150px;
 }
 
+@media screen and (max-width: 768px){
+    
+
+    .menu-link{
+        display: none;
+        float: right;
+        list-style: none;
+    }
+    .menu-link li { 
+        margin-right: 10px;
+        padding-top:0px;
+        padding-left: 10px;
+    }
+
+    ul{
+        display: none;
+      }
+      
+      #menu:checked  ~ ul{
+        display:block;
+      }
+      
+      #menu {
+        display: none;
+      }
+      
+      .label1 {
+        float: right;
+        margin: 30px 50px 0px 2px;
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+      }
+    
+      .label1:hover{
+        background: grey;
+      }
+    
+      ul{
+        margin-top:0;
+        padding: 0;
+        width: 200px;
+      
+      }
+    
+      li {
+        display: block;
+        background: lightgrey;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+        border-bottom: 1px solid grey;
+      }
+    
+      li:hover {
+        filter: brightness(110%);
+      }
+}
