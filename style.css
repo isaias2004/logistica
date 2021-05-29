@@ -124,6 +124,28 @@ span{
     color: cornflowerblue;
 }
 
+.container-flota{
+    margin: 0 auto;
+    display: flex;
+}
+
+#flota{
+    color: #323E48;
+    background: #E2E2E2;
+    padding: 100px;
+}
+
+.flota{
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    padding: 40px;
+}
+
+.flota p{
+    max-width: 400px;
+}
+
 footer{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -352,6 +374,18 @@ footer{
         padding: 150px;
         display: flex;
         justify-content: space-between;
+    }
+
+    .flota{
+        border: 1px solid #005FCD;
+    }
+
+    .flota img{
+        margin: 0 auto;
+    }
+
+    .column1 p{
+        padding: 15px;
     }
 }
 

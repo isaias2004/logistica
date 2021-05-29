@@ -290,4 +290,8 @@ footer{
       li:hover {
         filter: brightness(110%);
       }
+
+    .column1 p{
+        padding: 15px;
+    }
 }
