@@ -262,31 +262,18 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
-    
-    .separacion ul{
-    margin: 0 auto ;
-    list-style: circle;
-        width: 500px;
-    }
-    
-    .separacion li{
-        padding: 5px;
-    }
 
     .separacion{
-        margin: 0 auto ;
-        display: flex;
+        display: none;
     }
 
     #titulo{
-        color: cornflowerblue;
-        font-size: 35px;
-        text-align: center;
+        display: none;
     }
 
     ul{
         display: none;
-      }
+    }
       
       #menu:checked  ~ ul{
         display:block;
@@ -343,9 +330,7 @@ footer{
     }
 
     #servicios{
-        padding: 150px;
-        display: flex;
-        justify-content: space-between;
+        margin: 0 auto;
     }
 
     .column1 p{
@@ -388,11 +373,11 @@ footer{
         align-items: center;
     }
 
-    #servicios{
+    /* #servicios{
         padding: 70px;
         display: flex;
         justify-content: space-between;
-    }
+    } */
 }
 
 @media screen and (max-width: 375px) {
@@ -425,11 +410,11 @@ footer{
     }
 
 
-    #servicios{
+    /* #servicios{
         padding: 50px;
         display: flex;
         justify-content: space-between;
-    }
+    } */
 }
 
 @media screen and (max-width: 320px) {
@@ -461,9 +446,9 @@ footer{
         align-items: center;
     }
 
-    #servicios{
+    /* #servicios{
         padding: 10px;
         display: flex;
         justify-content: space-between;
-    }
+    } */
 }

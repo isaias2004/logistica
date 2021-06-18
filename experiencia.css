@@ -270,15 +270,22 @@ footer{
 
 @media screen and (max-width: 768px) {
 
+    .info{
+        display: flex;
+    }
+
     .imagen{
-        float: left;
-        margin: 0 auto ;
+        margin: 25px auto ;
         border-radius: 10px;
-        margin: 100px 50px 100px 55px;
         width: 210px;
     }
 
+    .info-2{
+        margin: 0;
+    }
+
     .info-2 p{
+        margin: 25px ;
         text-align: justify ;
     }
 

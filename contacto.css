@@ -294,4 +294,30 @@ footer{
     .column1 p{
         padding: 15px;
     }
+
+    .column2 {
+        padding: 0;
+    }
+
+    .column3{
+        padding: 0;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-image {
+        margin: 15px;
+        padding: 0;
+    }
+
+    .container-body{
+        display: flex;
+        justify-content: center;
+
+        width: 100%;
+    }
 }
